@@ -190,7 +190,7 @@ class MigrateSpecificCommand extends Command {
         $version = data_get($packageInfo, 'version');
         $repoUrl = data_get($packageInfo, 'source.url', 'https://github.com/caloskao/migrate-specific');
         $this->comment("MigrateSpecific {$version}");
-        $this->info('Copyright (C) 2019 by Calos Kao');
+        $this->info('Copyright (C) 2022 by Calos Kao');
         $this->info('If you have any problems while using, please visit the GitHub repository.');
         $this->info($repoUrl.PHP_EOL);
     }
